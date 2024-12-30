@@ -38,7 +38,7 @@ function listen() {
         });
     });
 }
-const wss = new ws_1.WebSocketServer({ port: 8080 });
+const wss = new ws_1.WebSocketServer({ port: 3000 });
 let allSockets = {};
 let socketToRoomMap = new Map();
 let socketToUsernameMap = new Map();
